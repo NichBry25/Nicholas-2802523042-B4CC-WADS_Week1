@@ -13,3 +13,19 @@ Microservices introduce:
 - Monitoring and observability requirements
 
 You are trading internal complexity (inside one codebase) for distributed complexity (across many systems). If you don’t have proper infrastructure — containerization (Docker), orchestration (Kubernetes), API gateways, logging systems — microservices can become chaotic. In fact, many startups adopt microservices too early and regret it.
+
+# When Should You Use Microservices?
+
+Microservices make sense when:
+- Your system is large and growing
+- Multiple teams are working independently
+- You require high scalability and resilience
+- Different domains evolve at different speeds
+
+They are usually unnecessary when:
+- Your app is small
+- Your team is small
+- Your scaling needs are minimal
+
+A well-designed monolith is often the best starting point. Many successful companies began with monoliths and gradually evolved into microservices as needed.
+Architecture should follow necessity — not trends.
