@@ -39,3 +39,27 @@ Each service:
 - Notification Service – email/SMS updates
 
 Instead of one large application, you now have a collection of smaller systems working together.
+
+# Why Microservices Became Popular
+
+Microservices align well with how modern teams operate and how modern systems scale.
+1. Independent Scaling
+If your payment system experiences heavy load, you scale only that service — not the entire application.
+This is cost-efficient and performance-oriented.
+
+2. Faster Development Cycles
+Different teams can work on different services simultaneously without stepping on each other’s toes.
+Frontend team updating UI?
+Backend team optimizing orders?
+DevOps team improving deployment pipelines?
+
+All can move independently.
+
+3. Technology Flexibility
+Each service can use the most suitable technology stack.
+One service in Node.js
+Another in Python
+A high-performance component in Go
+A legacy integration in Java
+
+This flexibility is powerful — but it also increases complexity.
