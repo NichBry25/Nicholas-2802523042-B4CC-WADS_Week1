@@ -28,4 +28,3 @@ They are usually unnecessary when:
 - Your scaling needs are minimal
 
 A well-designed monolith is often the best starting point. Many successful companies began with monoliths and gradually evolved into microservices as needed.
-Architecture should follow necessity — not trends.
