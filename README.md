@@ -21,3 +21,45 @@ That approach works beautifully at small scale. It’s simple. It’s fast to bu
 To solve these growing pains, engineers began splitting applications into smaller, independent services — each responsible for a single domain.
 
 That’s microservices.
+
+# What Are Microservices?
+
+Microservices are an architectural style where an application is composed of small, independent services that communicate over a network (usually via HTTP or messaging systems).
+
+Each service:
+- Has its own codebase
+- Owns its own database
+- Can be deployed independently
+- Focuses on a specific business capability
+- For example, an online store might be divided into:
+- User Service – authentication, profiles
+- Product Service – inventory and catalog
+- Order Service – checkout logic
+- Payment Service – transaction processing
+- Notification Service – email/SMS updates
+
+Instead of one large application, you now have a collection of smaller systems working together.
+
+# Why Microservices Became Popular
+
+Microservices align well with how modern teams operate and how modern systems scale.
+1. Independent Scaling
+If your payment system experiences heavy load, you scale only that service — not the entire application.
+This is cost-efficient and performance-oriented.
+
+2. Faster Development Cycles
+Different teams can work on different services simultaneously without stepping on each other’s toes.
+Frontend team updating UI?
+Backend team optimizing orders?
+DevOps team improving deployment pipelines?
+
+All can move independently.
+
+3. Technology Flexibility
+Each service can use the most suitable technology stack.
+One service in Node.js
+Another in Python
+A high-performance component in Go
+A legacy integration in Java
+
+This flexibility is powerful — but it also increases complexity.
