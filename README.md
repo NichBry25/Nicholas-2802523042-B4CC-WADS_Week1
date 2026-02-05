@@ -63,3 +63,26 @@ A high-performance component in Go
 A legacy integration in Java
 
 This flexibility is powerful — but it also increases complexity.
+
+# How Microservices Fit into Modern Web Development
+
+Today’s web stack often looks like this:
+
+Frontend:
+React / Next.js / Vue
+
+API Layer:
+REST or GraphQL gateway
+
+Backend Services:
+Independent microservices communicating via HTTP or message queues
+
+Infrastructure:
+Docker containers
+Kubernetes clusters
+Cloud platforms (AWS, GCP, Azure)
+
+Data Layer:
+Each service owns its database (PostgreSQL, MongoDB, Redis, etc.)
+
+This layered architecture allows systems to scale horizontally and remain resilient.
