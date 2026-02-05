@@ -4,7 +4,7 @@ Hello. My name is Nicholas Bryan (2802523042) from B4CC.
 
 # The Trade-Off: Microservices Are Not “Free”
 
-Here’s the part people don’t talk about enough.
+There are some things most people don't pay attention to.
 Microservices introduce:
 - Network latency
 - Distributed system complexity
